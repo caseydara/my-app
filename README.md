@@ -20,6 +20,22 @@ The page will reload when you make changes.\
 
 ## App.js
 
-The bulk of the relevant code for this website is located in the App.js file.
+The bulk of the relevant code for this website is located in the App.js file. First, a call is made to the NASA Apod API, the starting date defaults to 4/22/23. This date is stored in several states so it can be updated accordingly when the left and right arrows are clicked. Everytime the day state is changed the NASA Apod API data is re-retreived.
+
+Next, a query is set based on the title of the NASA Apod picture. To make this query, the title of the photo is split up into an array of every word in the title. A query is formulated with the string "OR" between each word since the News API allows for multiple query words to be inputed. 
+
+```javascript
+var splitTitle = title.split(" ");
+        console.log(title);
+        console.log(splitTitle.length)
+        var query = splitTitle[0]
+        for(var i = 1; i < splitTitle.length; i++){
+          query = query + " OR " + splitTitle[i];
+        }
+        await setSearchWord(query);
+```
+A call is made to the News API based on the query that is set.
+
+Lastly, there is also an advance date and decrement date function for when a user clicks the left and right arrow. When the date is updated the NASA Apod picture and relevant news articles will also be updated.
 
 
