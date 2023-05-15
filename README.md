@@ -20,10 +20,10 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 
 # 🌞 Git Hub Pages Website 🌞
 The Git Hub pages website only displays the part of the website that uses the NASA APOD API. Unfortuantely, the Git Hub pages website does not display the relevant news articles since I utilized a free version of the API that only allows API calls to be made when using a local host. I provide a screen recording of my website so you can see what it looks like with the news articles displayed below. Alternatively, you can download the repository and run npm start. 
