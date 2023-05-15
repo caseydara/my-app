@@ -3,6 +3,9 @@
 This website was created with react using the NASA Astronomy Picture of the Day API and the News API. A NASA APOD picture is loaded and the description of the picture and title are shown next to it. Beneath the picture, relevant news articles about the picture will appear. Additionally, using the left and right arrows next to the pictures allows you to scroll through additional NASA APOD pictures with relevant news displayed below.
 
 <img width="1440" alt="Screen Shot 2023-05-15 at 4 04 27 PM" src="https://github.com/caseydara/my-app/assets/35241746/798a3054-4ab3-4c43-a9e5-9279cb55aa3a">
+<img width="1430" alt="Screen Shot 2023-05-15 at 4 05 14 PM" src="https://github.com/caseydara/my-app/assets/35241746/b0772646-47d6-44ec-acc0-64f30a2c6759">
+
+
 
 ## Available Scripts
 
