@@ -1,6 +1,4 @@
-<p align="center">
 # 🌙 🪐 Getting Started with Space News 🪐 🌙
- </p>
  
  <p align="center">
 
